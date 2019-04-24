@@ -1,0 +1,67 @@
+  <div class="limiter">
+    <div class="container-login100">
+      <div class="wrap-login100">
+        <form class="login100-form validate-form" action="/users/register" method="post">
+          <span class="login100-form-title p-b-43">
+            Login to continue
+          </span>
+  
+  
+          <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+            <input class="input100" type="text" name="email" value="{{email}}"  onfocus="this.placeholder = ''">
+            <span class="focus-input100"></span>
+            <span class="label-input100">Email</span>
+          </div>
+  
+  
+          <div class="wrap-input100 validate-input" data-validate="Name is required">
+            <input class="input100" type="text" name="name" value="{{name}}">
+            <span class="focus-input100"></span>
+            <span class="label-input100">Name</span>
+          </div>
+  
+  
+          <div class="wrap-input100 validate-input" data-validate="Password is required: ex@abc.xyz">
+            <input class="input100" type="password" name="password" value="{{password}}">
+            <span class="focus-input100"></span>
+            <span class="label-input100">Password</span>
+          </div>
+  
+  
+          <div class="wrap-input100 validate-input" data-validate="Password is required">
+            <input class="input100" type="password" name="password2" value="{{password2}}">
+            <span class="focus-input100"></span>
+            <span class="label-input100">Re-Password</span>
+          </div>
+  
+  
+  
+          <div class="container-login100-form-btn">
+            <button type="submit" class="login100-form-btn">
+              sign up
+            </button>
+          </div>
+  
+          <div class="text-center p-t-46 p-b-20">
+            <span class="txt2">
+              or <a href="/users/login">sign in</a> using
+            </span>
+          </div>
+  
+          <div class="login100-form-social flex-c-m">
+            <a href="#" class="login100-form-social-item flex-c-m bg1 m-r-5">
+              <i class="fa fa-facebook-f" aria-hidden="true"></i>
+            </a>
+  
+            <a href="#" class="login100-form-social-item flex-c-m bg3 m-r-5">
+              <i class="fa fa-google" aria-hidden="true"></i>
+            </a>
+          </div>
+        </form>
+  
+        <div class="login100-more" style="background-image: url('/images/5.jpg');">
+        </div>
+      </div>
+    </div>
+  </div>
+
